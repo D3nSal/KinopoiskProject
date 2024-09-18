@@ -36,7 +36,7 @@ public class FilmsService {
     }
 
     @Transactional
-    public void saveFilms(List<Film> films) {
+    public void saveFilms(List<Film> films, String recipient) {
         List<Film> filterFilms = films.stream().filter(f -> filmsRepository.findByKinopoiskId(f.getKinopoiskId()).isEmpty()).filter(f -> f.getNameRu() != null).collect(Collectors.toList());
         for (Film film : filterFilms) {
             film.getCountries().forEach(country -> country.setCountryId(filtersId(country)).setFilm(film));
@@ -47,7 +47,7 @@ public class FilmsService {
             filmsRepository.save(film);
         }
         File file = saveToXML(filterFilms);
-        mailSender.sendMail("deniskas1127@gmail.com", file);
+        mailSender.sendMail(recipient, file);
     }
 
     @Transactional

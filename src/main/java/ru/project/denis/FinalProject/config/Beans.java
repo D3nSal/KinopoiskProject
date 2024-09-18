@@ -1,7 +1,10 @@
 package ru.project.denis.FinalProject.config;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
+import org.springframework.core.env.Environment;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
@@ -14,13 +17,20 @@ import ru.project.denis.FinalProject.models.FiltersEntity;
 import java.util.Properties;
 
 @Configuration
+@PropertySource("application.properties")
 public class Beans {
+
+    private final Environment env;
+
+    public Beans(Environment env) {
+        this.env = env;
+    }
 
     @Bean
     public HttpHeaders getHeaders() {
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
-        headers.add("X-API-KEY", "38e34224-03ec-490a-9800-2f2626a940a9");
+        headers.add("X-API-KEY", env.getProperty("api.header.key"));
         return headers;
     }
 
@@ -41,8 +51,8 @@ public class Beans {
         JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
         mailSender.setHost("smtp.mail.ru");
         mailSender.setPort(465);
-        mailSender.setUsername("deniskas1127@mail.ru");
-        mailSender.setPassword("uBDHELtm9nYde6tQSnWP");
+        mailSender.setUsername(env.getProperty("mail.username"));
+        mailSender.setPassword(env.getProperty("mail.password"));
         Properties props = mailSender.getJavaMailProperties();
         props.put("mail.transport.protocol", "smtps");
         props.put("mail.smtp.auth", "true");

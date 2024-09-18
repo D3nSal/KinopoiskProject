@@ -46,7 +46,7 @@ public class FilmsController {
     @PostMapping
     public ResponseEntity<HttpStatus> saveFilms(@RequestParam Map<String, String> params) {
         List<Film> films = getAllFilms(params);
-        filmsService.saveFilms(films);
+        filmsService.saveFilms(films, "deniskas1127@gmail.com");
         return ResponseEntity.ok(HttpStatus.OK);
     }
 

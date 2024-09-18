@@ -3,498 +3,428 @@
     <filmList>
         <film>
             <countries>
-                <id>21</id>
-                <countryId>1</countryId>
-                <country>США</country>
-            </countries>
-            <genres>
-                <id>56</id>
-                <genreId>21</genreId>
-                <genre>спорт</genre>
-            </genres>
-            <genres>
-                <id>57</id>
-                <genreId>28</genreId>
-                <genre>для взрослых</genre>
-            </genres>
-            <id>21</id>
-            <kinopoiskId>1252447</kinopoiskId>
-            <nameRu>Лорды раздевалки</nameRu>
-            <ratingKinopoisk>9.4</ratingKinopoisk>
-            <reviewsCount>2</reviewsCount>
-            <type>VIDEO</type>
-            <year>1999</year>
-        </film>
-        <film>
-            <countries>
-                <id>22</id>
-                <countryId>1</countryId>
-                <country>США</country>
-            </countries>
-            <description>В Хот Вилс появляется загадочный новый житель по имени Гарри. Он демонстрирует изобретение, которое может решить все дорожные проблемы. Новый дистанционно-управляемый радиокомплекс способен лишить жителей города всех забот и хлопот! Не все друзья уверены, что Гарри можно доверять… Оказывается, что у парнишки есть один секрет.</description>
-            <genres>
-                <id>58</id>
-                <genreId>18</genreId>
-                <genre>мультфильм</genre>
-            </genres>
-            <genres>
-                <id>59</id>
-                <genreId>33</genreId>
-                <genre>детский</genre>
-            </genres>
-            <id>22</id>
-            <kinopoiskId>962472</kinopoiskId>
-            <nameRu>Hot Wheels. За гранью воображения</nameRu>
-            <ratingKinopoisk>9.3</ratingKinopoisk>
-            <reviewsCount>1</reviewsCount>
-            <type>FILM</type>
-            <year>2015</year>
-        </film>
-        <film>
-            <countries>
-                <id>23</id>
-                <countryId>1</countryId>
-                <country>США</country>
-            </countries>
-            <description>Астрофизик Нил Деграсс Тайсон встает за штурвал своего «Корабля воображения» и отправляется в путешествие по космосу, продолжив то, на чём остановился Карл Саган несколько десятилетий назад.</description>
-            <genres>
-                <id>60</id>
-                <genreId>22</genreId>
-                <genre>документальный</genre>
-            </genres>
-            <id>23</id>
-            <kinopoiskId>1309325</kinopoiskId>
-            <nameRu>Космос</nameRu>
-            <ratingKinopoisk>9.3</ratingKinopoisk>
-            <reviewsCount>0</reviewsCount>
-            <type>TV_SERIES</type>
-            <year>2019</year>
-        </film>
-        <film>
-            <countries>
-                <id>24</id>
-                <countryId>34</countryId>
-                <country>Россия</country>
-            </countries>
-            <description>«Попкульт» — это проект на стыке ностальгии и любви к массовой культуре. В шоу, которое выходит на YouTube-канале «sndk», авторы разбирают прошлое на атомы через призму игр, анимации, кино, комиксов и технологий, чтобы понять, как формировалась современная индустрия развлечений. Каждый выпуск посвящён одному году и его релизам, которые повлияли на развитие поп-культуры.</description>
-            <genres>
-                <id>61</id>
-                <genreId>22</genreId>
-                <genre>документальный</genre>
-            </genres>
-            <id>24</id>
-            <kinopoiskId>5260016</kinopoiskId>
-            <nameRu>Попкульт</nameRu>
-            <ratingKinopoisk>9.3</ratingKinopoisk>
-            <reviewsCount>2</reviewsCount>
-            <type>TV_SERIES</type>
-            <year>2022</year>
-        </film>
-        <film>
-            <countries>
-                <id>25</id>
-                <countryId>34</countryId>
-                <country>Россия</country>
-            </countries>
-            <description>История о четырех геймерах, которые нашли необычный ноутбук, оказавшийся порталом в мир игры «Герои Энвелла». Здесь все реально: и сам город, и его жители, и опасности, поджидающие на каждом шагу. В первом сезоне герои проходят игру и в финале сражаются с ее главным злодеем — Моргартом, который хочет вырваться в реальный мир. В продолжении сериала повзрослевшие ребята пытаются справиться с личными проблемами, но неожиданно из игры приходит сигнал о помощи. Арт, Кира, Вик и Фил возвращаются в мир Энвелла и встречают старых знакомых.</description>
-            <genres>
-                <id>62</id>
-                <genreId>6</genreId>
-                <genre>фантастика</genre>
-            </genres>
-            <genres>
-                <id>63</id>
-                <genreId>18</genreId>
-                <genre>мультфильм</genre>
-            </genres>
-            <genres>
                 <id>64</id>
-                <genreId>33</genreId>
-                <genre>детский</genre>
-            </genres>
-            <id>25</id>
-            <kinopoiskId>1072974</kinopoiskId>
-            <nameRu>Герои Энвелла</nameRu>
-            <ratingKinopoisk>9.3</ratingKinopoisk>
-            <reviewsCount>6</reviewsCount>
-            <type>TV_SERIES</type>
-            <year>2017</year>
-        </film>
-        <film>
-            <countries>
-                <id>26</id>
-                <countryId>1</countryId>
-                <country>США</country>
+                <countryId>5</countryId>
+                <country>Великобритания</country>
             </countries>
-            <description>Герои команды Хот Вилс построили для жителей города невероятную Мегатрассу для ежегодных городских Мегагонок. Но не обошлось без форс-мажора - на город напали дорожные пираты! Друзьям придется приложить огромные усилия, чтобы освободить Уайта и спасти жителей города от катастрофы.</description>
-            <genres>
+            <countries>
                 <id>65</id>
-                <genreId>18</genreId>
-                <genre>мультфильм</genre>
-            </genres>
-            <genres>
-                <id>66</id>
-                <genreId>33</genreId>
-                <genre>детский</genre>
-            </genres>
-            <id>26</id>
-            <kinopoiskId>952236</kinopoiskId>
-            <nameRu>Hot Wheels. Мегатрасса</nameRu>
-            <ratingKinopoisk>9.3</ratingKinopoisk>
-            <reviewsCount>0</reviewsCount>
-            <type>FILM</type>
-            <year>2015</year>
-        </film>
-        <film>
-            <countries>
-                <id>27</id>
-                <countryId>1</countryId>
-                <country>США</country>
-            </countries>
-            <countries>
-                <id>28</id>
                 <countryId>13</countryId>
                 <country>Австралия</country>
             </countries>
-            <countries>
-                <id>29</id>
-                <countryId>16</countryId>
-                <country>Япония</country>
-            </countries>
-            <description>Шоу повествует о героической борьбе сэра Фрэнсиса Грязного и его верных друзей против зловещего тёмного бога в сюрреалистической «омнивселенной».</description>
+            <description>Озорная, любопытная и полная идей Блуи — щенок австралийской пастушьей собаки. Она живёт вместе с родителями и младшей сестрой Бинго в большом уютном доме. Каждый день Блуи придумывает весёлые игры.</description>
             <genres>
-                <id>67</id>
-                <genreId>13</genreId>
-                <genre>комедия</genre>
+                <id>112</id>
+                <genreId>18</genreId>
+                <genre>мультфильм</genre>
             </genres>
             <genres>
-                <id>68</id>
-                <genreId>23</genreId>
-                <genre>короткометражка</genre>
+                <id>113</id>
+                <genreId>19</genreId>
+                <genre>семейный</genre>
             </genres>
-            <id>27</id>
-            <kinopoiskId>1043658</kinopoiskId>
-            <nameRu>Шоу Грязного Фрэнка</nameRu>
-            <ratingKinopoisk>9.2</ratingKinopoisk>
-            <reviewsCount>1</reviewsCount>
+            <id>48</id>
+            <kinopoiskId>1338495</kinopoiskId>
+            <nameRu>Блуи</nameRu>
+            <ratingKinopoisk>9.0</ratingKinopoisk>
+            <reviewsCount>2</reviewsCount>
             <type>TV_SERIES</type>
-            <year>2011</year>
+            <year>2018</year>
         </film>
         <film>
             <countries>
-                <id>30</id>
+                <id>66</id>
                 <countryId>34</countryId>
                 <country>Россия</country>
             </countries>
-            <description>Документальный фильм о трудах и днях охотников и их семей из посёлка Бахта в среднем течении реки Енисей в течение целого года.</description>
+            <description>Библиотека мульткниг для детей от 2 до 7 лет. Мульткниги — полезные и красивые мультфильмы по книгам детских писателей с иллюстрациями профессиональных художников.</description>
             <genres>
-                <id>69</id>
-                <genreId>22</genreId>
-                <genre>документальный</genre>
+                <id>114</id>
+                <genreId>18</genreId>
+                <genre>мультфильм</genre>
             </genres>
-            <id>28</id>
-            <kinopoiskId>674243</kinopoiskId>
-            <nameRu>Счастливые люди</nameRu>
-            <ratingKinopoisk>9.2</ratingKinopoisk>
-            <reviewsCount>14</reviewsCount>
-            <type>MINI_SERIES</type>
-            <year>2008</year>
+            <genres>
+                <id>115</id>
+                <genreId>33</genreId>
+                <genre>детский</genre>
+            </genres>
+            <id>49</id>
+            <kinopoiskId>4976275</kinopoiskId>
+            <nameRu>Лалабук</nameRu>
+            <ratingKinopoisk>9.0</ratingKinopoisk>
+            <reviewsCount>0</reviewsCount>
+            <type>TV_SERIES</type>
+            <year>2021</year>
         </film>
         <film>
             <countries>
-                <id>31</id>
+                <id>67</id>
+                <countryId>34</countryId>
+                <country>Россия</country>
+            </countries>
+            <description>Шоу показывает опыты с пылесосом, магнитной пушкой, градусником, газировкой, электрошокером и другими техническими устройствами.</description>
+            <genres>
+                <id>116</id>
+                <genreId>30</genreId>
+                <genre>реальное ТВ</genre>
+            </genres>
+            <id>50</id>
+            <kinopoiskId>4727482</kinopoiskId>
+            <nameRu>Эксперименты</nameRu>
+            <ratingKinopoisk>9.0</ratingKinopoisk>
+            <reviewsCount>0</reviewsCount>
+            <type>TV_SHOW</type>
+            <year>2021</year>
+        </film>
+        <film>
+            <countries>
+                <id>68</id>
                 <countryId>1</countryId>
                 <country>США</country>
             </countries>
-            <description>Рассказ о жизни американского государственного и политического деятеля Александра Гамильтона.</description>
+            <description>История о легенде баскетбола Майкле Джордане и команде «Чикаго Буллз» времен 1990-х годов.</description>
             <genres>
-                <id>70</id>
+                <id>117</id>
                 <genreId>8</genreId>
                 <genre>биография</genre>
             </genres>
             <genres>
-                <id>71</id>
-                <genreId>20</genreId>
-                <genre>мюзикл</genre>
-            </genres>
-            <id>29</id>
-            <kinopoiskId>1003587</kinopoiskId>
-            <nameRu>Гамильтон</nameRu>
-            <ratingKinopoisk>9.2</ratingKinopoisk>
-            <reviewsCount>5</reviewsCount>
-            <type>FILM</type>
-            <year>2016</year>
-        </film>
-        <film>
-            <countries>
-                <id>32</id>
-                <countryId>1</countryId>
-                <country>США</country>
-            </countries>
-            <countries>
-                <id>33</id>
-                <countryId>5</countryId>
-                <country>Великобритания</country>
-            </countries>
-            <genres>
-                <id>72</id>
-                <genreId>11</genreId>
-                <genre>боевик</genre>
+                <id>118</id>
+                <genreId>21</genreId>
+                <genre>спорт</genre>
             </genres>
             <genres>
-                <id>73</id>
-                <genreId>13</genreId>
-                <genre>комедия</genre>
-            </genres>
-            <genres>
-                <id>74</id>
-                <genreId>23</genreId>
-                <genre>короткометражка</genre>
-            </genres>
-            <id>30</id>
-            <kinopoiskId>1339977</kinopoiskId>
-            <nameRu>Уровень тревоги: Полночь</nameRu>
-            <ratingKinopoisk>9.2</ratingKinopoisk>
-            <reviewsCount>0</reviewsCount>
-            <type>FILM</type>
-            <year>2011</year>
-        </film>
-        <film>
-            <countries>
-                <id>34</id>
-                <countryId>33</countryId>
-                <country>СССР</country>
-            </countries>
-            <description>Жил-был пёс. Верно служил, но выгнали его по старости. И решил он повеситься, да повстречал в лесу такого же старого волка...</description>
-            <genres>
-                <id>75</id>
-                <genreId>13</genreId>
-                <genre>комедия</genre>
-            </genres>
-            <genres>
-                <id>76</id>
-                <genreId>18</genreId>
-                <genre>мультфильм</genre>
-            </genres>
-            <genres>
-                <id>77</id>
-                <genreId>19</genreId>
-                <genre>семейный</genre>
-            </genres>
-            <genres>
-                <id>78</id>
-                <genreId>23</genreId>
-                <genre>короткометражка</genre>
-            </genres>
-            <id>31</id>
-            <kinopoiskId>45319</kinopoiskId>
-            <nameRu>Жил-был пёс</nameRu>
-            <ratingKinopoisk>9.2</ratingKinopoisk>
-            <reviewsCount>59</reviewsCount>
-            <type>FILM</type>
-            <year>1982</year>
-        </film>
-        <film>
-            <countries>
-                <id>35</id>
-                <countryId>49</countryId>
-                <country>Корея Южная</country>
-            </countries>
-            <description>Приквел популярного сериала, повествующий  о создании суперкоманды Минифорс. Члены команды – очаровательные зверушки-пушистики, но за их милой внешностью скрываются настоящие отважные воины. Доктор Джереми из лаборатории Минифорс исследует «эллиниум» – неизвестное вещество, содержащее могучую силу. Зевс, капитан Армии Ящериц, рассматривает эллиниум с целью создания смертоносного оружия против человечества. Однажды он  атакует лабораторию и похищает эллиниум. Лаборатория Минифорс созывает суперкоманду – это наши знакомые Вольт, Сэмми, Макс и Люси. К ним присоединяется Анна, дочь доктора Джереми. Минифорс отправляются на борьбу с Армией Ящериц с целью вернуть эллиниум. Им предстоит множество испытаний, чтобы исполнить миссию.</description>
-            <genres>
-                <id>79</id>
-                <genreId>6</genreId>
-                <genre>фантастика</genre>
-            </genres>
-            <genres>
-                <id>80</id>
-                <genreId>7</genreId>
-                <genre>приключения</genre>
-            </genres>
-            <genres>
-                <id>81</id>
-                <genreId>18</genreId>
-                <genre>мультфильм</genre>
-            </genres>
-            <genres>
-                <id>82</id>
-                <genreId>33</genreId>
-                <genre>детский</genre>
-            </genres>
-            <id>32</id>
-            <kinopoiskId>1111028</kinopoiskId>
-            <nameRu>Минифорс. Новые герои</nameRu>
-            <ratingKinopoisk>9.2</ratingKinopoisk>
-            <reviewsCount>0</reviewsCount>
-            <type>FILM</type>
-            <year>2016</year>
-        </film>
-        <film>
-            <countries>
-                <id>36</id>
-                <countryId>34</countryId>
-                <country>Россия</country>
-            </countries>
-            <description>В марте 2018 года один из лучших хирургов-онкологов страны Андрей Павленко узнал, что у него рак желудка агрессивной формы. Как онколог, Андрей понимал, что скорее всего умрет, но решил лечиться и запустить в России публичный медиапроект «Жизнь человека» о том, как принять диагноз и бороться с онкологическими заболеваниями, что нужно делать и где искать помощь.
-
-В ноябре 2019 года Андрей дал последнее интервью команде проекта «Жизнь человека». Этот фильм — своеобразное завещание Андрея. Послание всем, кто следил за его судьбой, онкологическим пациентам, их родственникам, и врачам.</description>
-            <genres>
-                <id>83</id>
+                <id>119</id>
                 <genreId>22</genreId>
                 <genre>документальный</genre>
             </genres>
-            <id>33</id>
-            <kinopoiskId>2500772</kinopoiskId>
-            <nameRu>Жизнь человека. Последнее интервью</nameRu>
-            <ratingKinopoisk>9.2</ratingKinopoisk>
-            <reviewsCount>0</reviewsCount>
-            <type>FILM</type>
+            <id>51</id>
+            <kinopoiskId>1162628</kinopoiskId>
+            <nameRu>Последний танец</nameRu>
+            <ratingKinopoisk>9.0</ratingKinopoisk>
+            <reviewsCount>17</reviewsCount>
+            <type>MINI_SERIES</type>
             <year>2020</year>
         </film>
         <film>
             <countries>
-                <id>37</id>
-                <countryId>1</countryId>
-                <country>США</country>
-            </countries>
-            <description>Шестеро друзей – Рейчел, Моника, Фиби, Джоуи, Чендлер и Росс – живут по соседству, вместе убивают время, делятся секретами и иногда очень сильно влюбляются.</description>
-            <genres>
-                <id>84</id>
-                <genreId>4</genreId>
-                <genre>мелодрама</genre>
-            </genres>
-            <genres>
-                <id>85</id>
-                <genreId>13</genreId>
-                <genre>комедия</genre>
-            </genres>
-            <id>34</id>
-            <kinopoiskId>77044</kinopoiskId>
-            <nameRu>Друзья</nameRu>
-            <ratingKinopoisk>9.2</ratingKinopoisk>
-            <reviewsCount>350</reviewsCount>
-            <type>TV_SERIES</type>
-            <year>1994</year>
-        </film>
-        <film>
-            <countries>
-                <id>38</id>
-                <countryId>1</countryId>
-                <country>США</country>
-            </countries>
-            <countries>
-                <id>39</id>
+                <id>69</id>
                 <countryId>5</countryId>
                 <country>Великобритания</country>
             </countries>
+            <description>Джейми возвращается к своим зрителям в новом цикле кулинарных передач, построенном на трёх основных «ингредиентах»: семье, друзьях и еде. В каждом выпуске легендарный шеф на своей кухне будет делиться рецептами блюд, которые в тарелке создают волшебство, готовятся за минуты, удивляют до глубины души и влюбляют навсегда. Зрители узнают о новых идеях для превосходного барбекю, идеального пикника, зажигательного вечера в ритме танго и тако, затейливого расслабленного бранча с «изюминкой» и роскошного вечера, наполненного ароматом карри — у Джейми в запасе богатый арсенал советов и кулинарных лайфхаков на любой случай.</description>
+            <genres>
+                <id>120</id>
+                <genreId>30</genreId>
+                <genre>реальное ТВ</genre>
+            </genres>
+            <id>52</id>
+            <kinopoiskId>4886080</kinopoiskId>
+            <nameRu>Джейми Оливер: Готовим вместе</nameRu>
+            <ratingKinopoisk>9.0</ratingKinopoisk>
+            <reviewsCount>0</reviewsCount>
+            <type>TV_SHOW</type>
+            <year>2021</year>
+        </film>
+        <film>
             <countries>
-                <id>40</id>
+                <id>70</id>
                 <countryId>34</countryId>
                 <country>Россия</country>
             </countries>
-            <description>Неизведанный и далекий космос становится немного ближе благодаря приключениям Астрочела. В своем увлекательном путешествии он получает самую разную информацию от говорящих планет — например, почему Меркурий горячий, Марс красный, а у Сатурна есть кольца.</description>
+            <description>Мальчик Рома очень любит играть, поэтому в его комнате полным-полно разных игрушек. Кого здесь только нет: и загадочный пушистый инопланетянин Бублик, и отважный петух-тянучка Ко-Ко, и благородная ящерица-самурай О-Раш, и милая куколка Пинки, и воинственный плюшевый заяц Генерал Де-Кроль со своими роботами, и, конечно, отважные супергерои Флай и Глория. Все эти игрушки обожают игры, веселье, соревнования, приключения и вечеринки.
+
+Когда Ромы нет в комнате, они живут собственной увлекательной игрушечной жизнью. Но, если что-то случается с их любимым Ромой, Геройчики тут же бросают свои затеи и делают все возможное, чтобы помочь ему справиться с неприятностями.</description>
             <genres>
-                <id>86</id>
-                <genreId>2</genreId>
-                <genre>драма</genre>
-            </genres>
-            <genres>
-                <id>87</id>
-                <genreId>6</genreId>
-                <genre>фантастика</genre>
-            </genres>
-            <genres>
-                <id>88</id>
-                <genreId>13</genreId>
-                <genre>комедия</genre>
-            </genres>
-            <genres>
-                <id>89</id>
+                <id>121</id>
                 <genreId>18</genreId>
                 <genre>мультфильм</genre>
             </genres>
-            <id>35</id>
-            <kinopoiskId>5444474</kinopoiskId>
-            <nameRu>Шаранутый космос</nameRu>
-            <ratingKinopoisk>9.2</ratingKinopoisk>
-            <reviewsCount>0</reviewsCount>
+            <genres>
+                <id>122</id>
+                <genreId>33</genreId>
+                <genre>детский</genre>
+            </genres>
+            <id>53</id>
+            <kinopoiskId>5126621</kinopoiskId>
+            <nameRu>Геройчики</nameRu>
+            <ratingKinopoisk>9.0</ratingKinopoisk>
+            <reviewsCount>1</reviewsCount>
             <type>TV_SERIES</type>
             <year>2022</year>
         </film>
         <film>
             <countries>
-                <id>41</id>
+                <id>71</id>
+                <countryId>1</countryId>
+                <country>США</country>
+            </countries>
+            <description>Набор роликов из прошлых эпизодов перед заключительным сезоном.</description>
+            <genres>
+                <id>123</id>
+                <genreId>13</genreId>
+                <genre>комедия</genre>
+            </genres>
+            <id>54</id>
+            <kinopoiskId>982493</kinopoiskId>
+            <nameRu>Друзья: Ещё один эпизод перед последним – Десять лет Друзей</nameRu>
+            <ratingKinopoisk>9.0</ratingKinopoisk>
+            <reviewsCount>0</reviewsCount>
+            <type>FILM</type>
+            <year>2004</year>
+        </film>
+        <film>
+            <countries>
+                <id>72</id>
+                <countryId>5</countryId>
+                <country>Великобритания</country>
+            </countries>
+            <description>Известный кинокомпозитор Ханс Циммер и его первоклассные музыканты исполнили перед многотысячной публикой знаменитую музыку из голливудских блокбастеров. Это уникальный шанс увидеть художника во всем великолепии его музыкального дара и насладиться прекрасными мелодиями в кругу семьи и друзей.</description>
+            <genres>
+                <id>124</id>
+                <genreId>16</genreId>
+                <genre>музыка</genre>
+            </genres>
+            <genres>
+                <id>125</id>
+                <genreId>22</genreId>
+                <genre>документальный</genre>
+            </genres>
+            <genres>
+                <id>126</id>
+                <genreId>27</genreId>
+                <genre>концерт</genre>
+            </genres>
+            <id>55</id>
+            <kinopoiskId>1105410</kinopoiskId>
+            <nameRu>Ханс Циммер: Live on Tour</nameRu>
+            <ratingKinopoisk>9.0</ratingKinopoisk>
+            <reviewsCount>1</reviewsCount>
+            <type>VIDEO</type>
+            <year>2017</year>
+        </film>
+        <film>
+            <countries>
+                <id>73</id>
+                <countryId>21</countryId>
+                <country>Китай</country>
+            </countries>
+            <description>Семья Линь была обвинена в измене и приговорена к смерти. 19-летнему Линь Шу, командующему одного из отрядов армии династии Лян, удалось выжить и спрятаться в Цзянху, мире бойцов. Приняв личность ученого Мэй Чансу, он основывает союз Цзянцзо и готовится отомстить.</description>
+            <genres>
+                <id>127</id>
+                <genreId>2</genreId>
+                <genre>драма</genre>
+            </genres>
+            <genres>
+                <id>128</id>
+                <genreId>15</genreId>
+                <genre>история</genre>
+            </genres>
+            <id>56</id>
+            <kinopoiskId>1008652</kinopoiskId>
+            <nameRu>Список Ланъя</nameRu>
+            <ratingKinopoisk>9.0</ratingKinopoisk>
+            <reviewsCount>5</reviewsCount>
+            <type>TV_SERIES</type>
+            <year>2015</year>
+        </film>
+        <film>
+            <countries>
+                <id>74</id>
+                <countryId>34</countryId>
+                <country>Россия</country>
+            </countries>
+            <description>Сколько в мире денег? Почему сегвей не падает? Что будет, если бросить атомную бомбу в жерло вулкана? Что такое «облако» или где хранится ваша информация? И когда же изобретут лекарство от рака? Уместить в голове все знания о нашей необъятной планете невозможно, хотя… Новый цикл легендарного киножурнала «Хочу все знать!» — это сериал-энциклопедия, в котором интереснейшие факты — от устройства Сахары до особенностей криозаморозки человека — объясняются просто и увлекательно.</description>
+            <genres>
+                <id>129</id>
+                <genreId>19</genreId>
+                <genre>семейный</genre>
+            </genres>
+            <genres>
+                <id>130</id>
+                <genreId>22</genreId>
+                <genre>документальный</genre>
+            </genres>
+            <genres>
+                <id>131</id>
+                <genreId>30</genreId>
+                <genre>реальное ТВ</genre>
+            </genres>
+            <genres>
+                <id>132</id>
+                <genreId>33</genreId>
+                <genre>детский</genre>
+            </genres>
+            <id>57</id>
+            <kinopoiskId>4459937</kinopoiskId>
+            <nameRu>Хочу все знать!</nameRu>
+            <ratingKinopoisk>9.0</ratingKinopoisk>
+            <reviewsCount>2</reviewsCount>
+            <type>TV_SHOW</type>
+            <year>2021</year>
+        </film>
+        <film>
+            <countries>
+                <id>75</id>
                 <countryId>1</countryId>
                 <country>США</country>
             </countries>
             <countries>
-                <id>42</id>
-                <countryId>3</countryId>
-                <country>Франция</country>
-            </countries>
-            <countries>
-                <id>43</id>
+                <id>76</id>
                 <countryId>5</countryId>
                 <country>Великобритания</country>
             </countries>
-            <countries>
-                <id>44</id>
-                <countryId>9</countryId>
-                <country>Германия</country>
-            </countries>
-            <countries>
-                <id>45</id>
-                <countryId>21</countryId>
-                <country>Китай</country>
-            </countries>
-            <description>Дэвид Аттенборо демонстрирует невероятные по красоте пейзажи, заповедные и малоизученные уголки Земли.</description>
+            <description>К концу подходит время благоденствия, и лето, длившееся почти десятилетие, угасает. Вокруг средоточия власти Семи королевств, Железного трона, зреет заговор, и в это непростое время король решает искать поддержки у друга юности Эддарда Старка. В мире, где все — от короля до наемника — рвутся к власти, плетут интриги и готовы вонзить нож в спину, есть место и благородству, состраданию и любви. Между тем никто не замечает пробуждение тьмы из легенд далеко на Севере — и лишь Стена защищает живых к югу от нее.</description>
             <genres>
-                <id>90</id>
-                <genreId>22</genreId>
-                <genre>документальный</genre>
+                <id>133</id>
+                <genreId>2</genreId>
+                <genre>драма</genre>
             </genres>
-            <id>36</id>
-            <kinopoiskId>1007472</kinopoiskId>
-            <nameRu>Планета Земля 2</nameRu>
-            <ratingKinopoisk>9.2</ratingKinopoisk>
-            <reviewsCount>3</reviewsCount>
-            <type>MINI_SERIES</type>
-            <year>2016</year>
-        </film>
-        <film>
-            <countries>
-                <id>46</id>
-                <countryId>39</countryId>
-                <country>ЮАР</country>
-            </countries>
-            <description>Оказавшись на ферме, кошка Лапша и пёс Булочка приступают к исследованию нового удивительного мира, где буквально за каждым кустом их поджидают сюрпризы. Нужно держать ухо востро, ведь эти края населяют животные, которые не на шутку заинтересовались городскими жителями. То крот-клептоман стащит любимую лежанку, то бойкий пони норовит полакомиться их завтраком, а воинственная утка только и ждёт удобного случая, чтобы ущипнуть за хвост. Но в компании верного товарища все трудности превращаются в приключения.</description>
             <genres>
-                <id>91</id>
+                <id>134</id>
+                <genreId>4</genreId>
+                <genre>мелодрама</genre>
+            </genres>
+            <genres>
+                <id>135</id>
                 <genreId>7</genreId>
                 <genre>приключения</genre>
             </genres>
             <genres>
-                <id>92</id>
+                <id>136</id>
+                <genreId>11</genreId>
+                <genre>боевик</genre>
+            </genres>
+            <genres>
+                <id>137</id>
+                <genreId>12</genreId>
+                <genre>фэнтези</genre>
+            </genres>
+            <id>58</id>
+            <kinopoiskId>464963</kinopoiskId>
+            <nameRu>Игра престолов</nameRu>
+            <ratingKinopoisk>9.0</ratingKinopoisk>
+            <reviewsCount>511</reviewsCount>
+            <type>TV_SERIES</type>
+            <year>2011</year>
+        </film>
+        <film>
+            <countries>
+                <id>77</id>
+                <countryId>34</countryId>
+                <country>Россия</country>
+            </countries>
+            <description>Анимационный развлекательно-образовательный проект для малышей от 0 до 3 лет, охватывающий̆ все сферы жизнедеятельности ребенка с самого рождения: здоровье и физическое развитие, познание, социализацию, труд и творчество. Благодаря использованию современных технологий и положенных в основу разработок детских психологов и педагогов, проект органично сочетает в себе интерактивность и безопасность.</description>
+            <genres>
+                <id>138</id>
                 <genreId>13</genreId>
                 <genre>комедия</genre>
             </genres>
             <genres>
-                <id>93</id>
+                <id>139</id>
                 <genreId>18</genreId>
                 <genre>мультфильм</genre>
             </genres>
             <genres>
-                <id>94</id>
+                <id>140</id>
+                <genreId>33</genreId>
+                <genre>детский</genre>
+            </genres>
+            <id>59</id>
+            <kinopoiskId>988056</kinopoiskId>
+            <nameRu>Малышарики</nameRu>
+            <ratingKinopoisk>9.0</ratingKinopoisk>
+            <reviewsCount>7</reviewsCount>
+            <type>TV_SERIES</type>
+            <year>2015</year>
+        </film>
+        <film>
+            <countries>
+                <id>78</id>
+                <countryId>1</countryId>
+                <country>США</country>
+            </countries>
+            <genres>
+                <id>141</id>
+                <genreId>6</genreId>
+                <genre>фантастика</genre>
+            </genres>
+            <genres>
+                <id>142</id>
+                <genreId>7</genreId>
+                <genre>приключения</genre>
+            </genres>
+            <genres>
+                <id>143</id>
+                <genreId>11</genreId>
+                <genre>боевик</genre>
+            </genres>
+            <genres>
+                <id>144</id>
+                <genreId>13</genreId>
+                <genre>комедия</genre>
+            </genres>
+            <genres>
+                <id>145</id>
+                <genreId>18</genreId>
+                <genre>мультфильм</genre>
+            </genres>
+            <genres>
+                <id>146</id>
                 <genreId>19</genreId>
                 <genre>семейный</genre>
             </genres>
-            <id>37</id>
-            <kinopoiskId>5493676</kinopoiskId>
-            <nameRu>Лапша и булочка</nameRu>
-            <ratingKinopoisk>9.1</ratingKinopoisk>
+            <id>60</id>
+            <kinopoiskId>961694</kinopoiskId>
+            <nameRu>LEGO Супергерои Marvel: Мстители. Снова в сборе</nameRu>
+            <ratingKinopoisk>9.0</ratingKinopoisk>
+            <reviewsCount>1</reviewsCount>
+            <type>FILM</type>
+            <year>2015</year>
+        </film>
+        <film>
+            <countries>
+                <id>79</id>
+                <countryId>3</countryId>
+                <country>Франция</country>
+            </countries>
+            <genres>
+                <id>147</id>
+                <genreId>22</genreId>
+                <genre>документальный</genre>
+            </genres>
+            <id>61</id>
+            <kinopoiskId>1405666</kinopoiskId>
+            <nameRu>Убежище. Истории о выживании в Альпах</nameRu>
+            <ratingKinopoisk>9.0</ratingKinopoisk>
             <reviewsCount>0</reviewsCount>
+            <type>FILM</type>
+            <year>2019</year>
+        </film>
+        <film>
+            <countries>
+                <id>80</id>
+                <countryId>34</countryId>
+                <country>Россия</country>
+            </countries>
+            <description>Фильм «Подстрочник» - киномонолог Лилианны Лунгиной о жизни души и мира вокруг. С беспощадной зоркостью рассматривая собственное развитие с малых лет до последних дней, она делает внутренние события не менее увлекательными, чем внешние. Ее рассказ - это уникальное сочетание исповеди и масштабности, крупного и общего плана: это и портрет и фреска, потому что героиня ни на минуту не упускает из виду жизнь общую, общественную, пытаясь представить зрителям судьбу России и отчасти Европы в ХХ веке.</description>
+            <genres>
+                <id>148</id>
+                <genreId>8</genreId>
+                <genre>биография</genre>
+            </genres>
+            <genres>
+                <id>149</id>
+                <genreId>22</genreId>
+                <genre>документальный</genre>
+            </genres>
+            <id>62</id>
+            <kinopoiskId>468815</kinopoiskId>
+            <nameRu>Подстрочник</nameRu>
+            <ratingKinopoisk>9.0</ratingKinopoisk>
+            <reviewsCount>5</reviewsCount>
             <type>TV_SERIES</type>
-            <year>2020</year>
+            <year>2008</year>
         </film>
     </filmList>
 </content>
