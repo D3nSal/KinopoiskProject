@@ -5,7 +5,9 @@ import org.springframework.http.*;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
+import ru.project.denis.FinalProject.mappers.FilmMapper;
 import ru.project.denis.FinalProject.models.Film;
+import ru.project.denis.FinalProject.dto.FilmDTO;
 import ru.project.denis.FinalProject.models.FilmsResponseEntity;
 import ru.project.denis.FinalProject.services.FilmsService;
 import java.net.URLDecoder;
@@ -19,6 +21,7 @@ public class FilmsController {
     private final FilmsService filmsService;
     private final HttpHeaders headers;
     private final RestTemplate restTemplate;
+    private final FilmMapper filmMapper = FilmMapper.INSTANCE;
 
     @Autowired
     public FilmsController(FilmsService filmsService, HttpHeaders headers, RestTemplate restTemplate) {
@@ -28,7 +31,7 @@ public class FilmsController {
     }
 
     @GetMapping
-    public List<Film> getAllFilms(@RequestParam Map<String, String> params) {
+    public List<FilmDTO> getAllFilms(@RequestParam Map<String, String> params) {
         String url = "https://kinopoiskapiunofficial.tech/api/v2.2/films";
 
         UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(url);
@@ -45,17 +48,21 @@ public class FilmsController {
 
     @PostMapping
     public ResponseEntity<HttpStatus> saveFilms(@RequestParam Map<String, String> params) {
-        List<Film> films = getAllFilms(params);
+        List<FilmDTO> filmsDTO = getAllFilms(params);
+        List<Film> films = filmMapper.filmsDTOToFilms(filmsDTO);
         filmsService.saveFilms(films, "deniskas1127@gmail.com");
         return ResponseEntity.ok(HttpStatus.OK);
     }
 
     @GetMapping("/fromBD")
-    public List<Film> getFilmsFromBD(@RequestParam Map<String, String> params) {
+    public List<FilmDTO> getFilmsFromBD(@RequestParam Map<String, String> params) {
         List<Film> list = filmsService.getFilms();
+        if (!params.containsKey("page")) {
+            params.put("page", "1");
+        }
         for (Map.Entry<String, String> entry : params.entrySet()) {
             list = filmsService.filterFilms(entry.getKey(), entry.getValue(), list);
         }
-        return list;
+        return filmMapper.filmsToFilmsDTO(list);
     }
 }

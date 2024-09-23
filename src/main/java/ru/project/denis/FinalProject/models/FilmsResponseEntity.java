@@ -1,16 +1,18 @@
 package ru.project.denis.FinalProject.models;
 
+import ru.project.denis.FinalProject.dto.FilmDTO;
+
 import java.util.List;
 
 public class FilmsResponseEntity {
     private int total;
     private int totalPages;
-    private List<Film> items;
+    private List<FilmDTO> items;
 
     public FilmsResponseEntity() {
     }
 
-    public FilmsResponseEntity(int total, int totalPages, List<Film> items) {
+    public FilmsResponseEntity(int total, int totalPages, List<FilmDTO> items) {
         this.total = total;
         this.totalPages = totalPages;
         this.items = items;
@@ -32,11 +34,11 @@ public class FilmsResponseEntity {
         this.totalPages = totalPages;
     }
 
-    public List<Film> getItems() {
+    public List<FilmDTO> getItems() {
         return items;
     }
 
-    public void setItems(List<Film> items) {
+    public void setItems(List<FilmDTO> items) {
         this.items = items;
     }
 }
