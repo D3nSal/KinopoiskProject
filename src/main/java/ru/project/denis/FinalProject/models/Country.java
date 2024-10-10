@@ -28,9 +28,10 @@ public class Country {
 
     public Country() {}
 
-    public Country(int id, Film film, String country) {
+    public Country(int id, Film film, int countryId, String country) {
         this.id = id;
         this.film = film;
+        this.countryId = countryId;
         this.country = country;
     }
 

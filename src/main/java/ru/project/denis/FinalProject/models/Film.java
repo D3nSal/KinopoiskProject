@@ -20,7 +20,7 @@ public class Film {
     @Column(name = "film_name")
     private String nameRu;
 
-    @Column(name = "year")
+    @Column(name = "year_from")
     private int year;
 
     @Column(name = "rating")
@@ -43,12 +43,13 @@ public class Film {
 
     public Film() {}
 
-    public Film(int kinopoiskId, String nameRu, int year, Double ratingKinopoisk, String description) {
+    public Film(int kinopoiskId, String nameRu, int year, Double ratingKinopoisk, String description, int reviewsCount) {
         this.kinopoiskId = kinopoiskId;
         this.nameRu = nameRu;
         this.year = year;
         this.ratingKinopoisk = ratingKinopoisk;
         this.description = description;
+        this.reviewsCount = reviewsCount;
     }
 
     public int getReviewsCount() {

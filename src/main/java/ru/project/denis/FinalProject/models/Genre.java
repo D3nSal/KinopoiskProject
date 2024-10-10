@@ -29,9 +29,10 @@ public class Genre {
     public Genre() {
     }
 
-    public Genre(int id, Film film, String genre) {
+    public Genre(int id, Film film, int genreId, String genre) {
         this.id = id;
         this.film = film;
+        this.genreId = genreId;
         this.genre = genre;
     }
 

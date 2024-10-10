@@ -1,12 +1,16 @@
 package ru.project.denis.FinalProject.models;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import ru.project.denis.FinalProject.dto.FilmDTO;
 
 import java.util.List;
 
 public class FilmsResponseEntity {
+    @JsonProperty
     private int total;
+    @JsonProperty
     private int totalPages;
+    @JsonProperty
     private List<FilmDTO> items;
 
     public FilmsResponseEntity() {

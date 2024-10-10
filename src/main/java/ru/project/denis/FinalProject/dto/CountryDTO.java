@@ -6,6 +6,10 @@ public class CountryDTO {
     public CountryDTO() {
     }
 
+    public CountryDTO(String country) {
+        this.country = country;
+    }
+
     public String getCountry() {
         return country;
     }

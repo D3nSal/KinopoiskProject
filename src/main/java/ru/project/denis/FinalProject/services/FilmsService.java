@@ -7,15 +7,19 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.client.RestTemplate;
+import ru.project.denis.FinalProject.dto.FilmDTO;
+import ru.project.denis.FinalProject.mappers.FilmMapper;
 import ru.project.denis.FinalProject.models.*;
 import ru.project.denis.FinalProject.repositories.FilmsRepository;
 import java.io.File;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 @Service
@@ -25,6 +29,7 @@ public class FilmsService {
     private final RestTemplate restTemplate;
     private final HttpHeaders headers;
     private final MailSender mailSender;
+    private final FilmMapper filmMapper = FilmMapper.INSTANCE;
 
     @Autowired
     public FilmsService(FilmsRepository filmsRepository, FiltersEntity filters, HttpHeaders headers, RestTemplate restTemplate, MailSender mailSender) {
@@ -36,8 +41,10 @@ public class FilmsService {
     }
 
     @Transactional
-    public void saveFilms(List<Film> films, String recipient) {
-        List<Film> filterFilms = films.stream().filter(f -> filmsRepository.findByKinopoiskId(f.getKinopoiskId()).isEmpty()).filter(f -> f.getNameRu() != null).collect(Collectors.toList());
+    public void saveFilms(List<FilmDTO> filmsDTO, String recipient) {
+        List<Film> films = filmMapper.filmsDTOToFilms(filmsDTO);
+        List<Film> filterFilms = films.stream().filter(f -> filmsRepository.findByKinopoiskId(f.getKinopoiskId()).isEmpty())
+                .filter(f -> f.getNameRu() != null).collect(Collectors.toList());
         for (Film film : filterFilms) {
             film.getCountries().forEach(country -> country.setCountryId(filtersId(country)).setFilm(film));
             film.getGenres().forEach(genre -> genre.setGenreId(filtersId(genre)).setFilm(film));
@@ -46,13 +53,23 @@ public class FilmsService {
             film.setReviewsCount(filmWithMoreInfo.getReviewsCount());
             filmsRepository.save(film);
         }
-        File file = saveToXML(filterFilms);
-        mailSender.sendMail(recipient, file);
+        mailSender.sendMail(recipient, filterFilms);
     }
 
     @Transactional
     public List<Film> getFilms() {
         return filmsRepository.findAll();
+    }
+
+    public List<FilmDTO> getFilmsFromBD(Map<String, String> params) {
+        List<Film> films = getFilms();
+        if (!params.containsKey("page")) {
+            params.put("page", "1");
+        }
+        for (Map.Entry<String, String> entry : params.entrySet()) {
+            films = filterFilms(entry.getKey(), entry.getValue(), films);
+        }
+        return filmMapper.filmsToFilmsDTO(films);
     }
 
     private int filtersId(Country filmCountry) {
@@ -78,10 +95,10 @@ public class FilmsService {
     private Film getMoreFilmInfo(Film film) {
         String url = "https://kinopoiskapiunofficial.tech/api/v2.2/films/" + film.getKinopoiskId();
         HttpEntity httpEntity = new HttpEntity<>(headers);
-        return restTemplate.exchange(url, HttpMethod.GET, httpEntity, Film.class).getBody();
+         return restTemplate.exchange(url, HttpMethod.GET, httpEntity, Film.class).getBody();
     }
 
-    public List<Film> filterFilms(String key, String value, List<Film> films) {
+    private List<Film> filterFilms(String key, String value, List<Film> films) {
         switch (key) {
             case "countries":
                 films = films.stream().filter(film -> film.getCountries().stream().anyMatch(country -> country.getCountryId() == Integer.parseInt(value))).collect(Collectors.toList());
@@ -188,20 +205,5 @@ public class FilmsService {
                 break;
         }
         return films;
-    }
-
-    private File saveToXML(List<Film> films) {
-        File file = new File("films.xml");
-        try {
-            JAXBContext context = JAXBContext.newInstance(Content.class);
-            Content content = new Content();
-            content.setFilmList(films);
-            Marshaller marshaller = context.createMarshaller();
-            marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
-            marshaller.marshal(content, file);
-        } catch (JAXBException e) {
-            throw new RuntimeException(e);
-        }
-        return file;
     }
 }

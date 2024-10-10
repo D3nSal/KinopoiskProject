@@ -6,6 +6,10 @@ public class GenreDTO {
     public GenreDTO() {
     }
 
+    public GenreDTO(String genre) {
+        this.genre = genre;
+    }
+
     public String getGenre() {
         return genre;
     }

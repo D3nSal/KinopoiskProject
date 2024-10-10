@@ -10,6 +10,9 @@ public class FilmDTO {
     private double ratingKinopoisk;
     private int year;
     private String type;
+    private int reviewsCount;
+    private String description;
+
 
     public FilmDTO() {
     }
@@ -69,5 +72,36 @@ public class FilmDTO {
 
     public void setType(String type) {
         this.type = type;
+    }
+
+    public int getReviewsCount() {
+        return reviewsCount;
+    }
+
+    public void setReviewsCount(int reviewsCount) {
+        this.reviewsCount = reviewsCount;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    @Override
+    public String toString() {
+        return "FilmDTO{" +
+                "kinopoiskId=" + kinopoiskId +
+                ", nameRu='" + nameRu + '\'' +
+                ", countries=" + countries +
+                ", genres=" + genres +
+                ", ratingKinopoisk=" + ratingKinopoisk +
+                ", year=" + year +
+                ", type='" + type + '\'' +
+                ", reviewsCount=" + reviewsCount +
+                ", description='" + description + '\'' +
+                '}';
     }
 }

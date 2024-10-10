@@ -16,7 +16,7 @@ import ru.project.denis.FinalProject.models.FiltersEntity;
 import java.util.Properties;
 
 @Configuration
-@PropertySource("application.properties")
+@PropertySource("classpath:application.properties")
 public class Beans {
 
     private final Environment env;
